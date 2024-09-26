@@ -1,4 +1,4 @@
-name: get stock price
+name: Get Stock Price
 
 	 
 
@@ -22,7 +22,7 @@ name: get stock price
 
 	      - name: Set up Python
 
-	        uses: actions/setup-python@v4
+	        uses: actions/setup-python@v2
 
 	        with:
 
@@ -44,7 +44,7 @@ name: get stock price
 
 	      - name: Check out code
 
-	        uses: actions/checkout@v4
+	        uses: actions/checkout@v2
 
 	 
 
